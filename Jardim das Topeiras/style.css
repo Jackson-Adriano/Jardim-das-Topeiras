@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.garden .landscape {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.topeira {
+    position: absolute;
+    top: 30.3rem;
+    left: 24.5rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5.4rem;
+
+
+
+}
+
+
+.seq1 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.5s normal;
+    animation-delay: 2s;
+
+}
+
+.seq2 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.4s normal;
+    animation-delay: 2.3s;
+
+}
+
+.seq3 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.4s normal;
+    animation-delay: 2.6s;
+
+}
+
+.seq4 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.3s normal;
+    animation-delay: 2.9s;
+
+}
+
+.seq5 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.2s normal;
+    animation-delay: 3.2s;
+
+}
+
+.topeiras3 {
+    position: absolute;
+    top: 52.11rem;
+    left: 52.12rem;
+}
+
+.sqrtt1 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.5s normal;
+    animation-delay: 13s;
+
+}
+
+.sqrtt2 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.4s normal;
+    animation-delay: 13.3s;
+
+}
+
+.sqrtt3 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.4s normal;
+    animation-delay: 13.6s;
+
+}
+
+.sqrtt4 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.3s normal;
+    animation-delay: 13.9s;
+
+}
+
+.sqrtt5 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.2s normal;
+    animation-delay: 14.2s;
+
+}
+
+.topeiras4 {
+    position: absolute;
+    top: 75rem;
+    left: 80rem;
+}
+
+.sqrttt1 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.5s normal;
+    animation-delay: 16s;
+
+}
+
+.sqrttt2 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.4s normal;
+    animation-delay: 16.3s;
+
+}
+
+.sqrttt3 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.4s normal;
+    animation-delay: 16.6s;
+
+}
+
+.sqrttt4 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.3s normal;
+    animation-delay: 16.9s;
+
+}
+
+.sqrttt5 {
+    position: absolute;
+    opacity: 0;
+    animation: aparecerSequencia 0.2s normal;
+    animation-delay: 17.2s;
+
+}
+
+
+
+
+
+
+@keyframes aparecerSequencia {
+    0% {
+        opacity: 0;
+    }
+
+    20% {
+        opacity: 1;
+    }
+
+    80% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
